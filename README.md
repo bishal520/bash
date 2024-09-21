@@ -16,7 +16,7 @@ sudo mv rathole /usr/local/bin/
 rathole -V
 # 2. Configure the Gateway (Public Server)
 Create a gateway-config.toml file for the gateway, which will handle connections from the client:
-sudo nano /etc/rathole/gateway-config.toml
+- sudo nano /etc/rathole/gateway-config.toml
 Inside the gateway-config.toml, configure the gateway like this:
 # [server]
 bind_addr = "0.0.0.0:2333" # Listen address for public traffic
